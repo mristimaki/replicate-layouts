@@ -5,3 +5,15 @@
 #nav-logo {
     max-width: 150px;
 }
+
+#nav-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#nav-list {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+}
