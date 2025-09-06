@@ -1,7 +1,7 @@
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+/*
 #nav-logo {
     max-width: 150px;
 }
@@ -9,12 +9,49 @@
 #nav-container {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 1rem;
+    justify-content: space-evenly;
 }
 
-#nav-list {
-    display: flex;
-    list-style: none;
-    gap: 5px;
-    padding: 1rem;
+#nav-input {
+    font-size: 15px;
+    padding: 0.75rem;
+    border: 1px solid lightgray;
+    border-radius: 7px;
 }
+
+.btn-wrapper {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.nav-btns {
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#login-btn {
+    background-color: white;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#signin-btn {
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid blueviolet;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#lang-btn {
+    background-color: white;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 7px;
+    cursor: pointer;
+}
+*/
