@@ -12,8 +12,14 @@ nav {
     align-items: center;
 }
 
+.hamburger {
+    display: none;
+}
+
 .nav-links a {
-    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
 }
 
 #nav-container-mobile ul{
@@ -24,7 +30,7 @@ nav {
     gap: 1rem;
 }
 
-#nav-container a:hover {
+.nav-links a:hover {
     background-color: #f0f0f0;
 }
 
