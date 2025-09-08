@@ -1,6 +1,32 @@
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+}
 
+button {
+    background-color: white;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#nav-btns a {
+    display: flex;
+    text-decoration: none;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 16px;
+    color: blueviolet;
+}
+
+#signup-btn a {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+}
+
+#lang-btn a {
+    padding: 0.6rem;
 }
 
 #nav-wrapper {
@@ -40,37 +66,4 @@ input :focus {
 .nav-links a {
     text-decoration: none;
     color: black;
-}
-
-.nav-btns a {
-    display: flex;
-    text-decoration: none;
-    padding: 0.5rem;
-    font-weight: bold;
-    font-size: 16px;
-    border-radius: 7px;
-}
-
-#login-btn {
-    background-color: white;
-    color: blueviolet;
-    border: 1px solid blueviolet;
-    border-radius: 7px;
-    cursor: pointer;
-}
-
-#signup-btn {
-    background-color: blueviolet;
-    color: white;
-    border: 1px solid blueviolet;
-    border-radius: 7px;
-    cursor: pointer;
-}
-
-#lang-btn {
-    background-color: white;
-    color: blueviolet;
-    border: 1px solid blueviolet;
-    border-radius: 7px;
-    cursor: pointer;
 }
