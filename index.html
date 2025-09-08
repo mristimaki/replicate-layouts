@@ -9,25 +9,26 @@
     <title>Replicate Layouts</title>
 </head>
 <body>
-    <nav id="nav-container">
-        <ul class="nav-links">
-            <li><a href="#login">Log in</a></li>
-            <li><a href="#signup">Sign up</a></li>
-            <li><a href="#planspricing">Plans & Pricing</a><li>
-            <li><a href="#explore">Explore</a></li>
-            <li><a href="#mostpopular">Most popular</a></li>
-            <li><a href="#morefromudemy">More from Udemy</a></li>
-            <li><button><i class="fa-solid fa-globe"></i> English</button></li>
-        </ul>
-        <div class="logo">
-            <img src="images/logo-udemy.svg" alt="Logo from Udemy" width="100px">
-        </div>
-        <div class="nav-btn-mobile">
-            <button><i class="fa-solid fa-magnifying-glass"></i></button>
-            <button><i class="fa-solid fa-cart-shopping"></i></button>
+    <nav>
+        <div id="nav-wrapper">
+            <div class="logo">
+                <img src="images/logo-udemy.svg" alt="Logo from Udemy" width="100px">
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#explore">Explore</a></li>
+                <li><span id="search-icon"><i class="fa-solid fa-magnifying-glass"></i><input id="nav-input" type="text" value="Search for anything"></span></li>
+                <li><a href="#planspricing">Plans & Pricing</a></li>
+                <li><a href="#morefromudemy">Udemy Business</a></li>
+            </ul>
+
+            <div class="nav-btns">
+                <button id="login-btn"><a href="#login">Log in</a></button>
+                <button id="signup-btn"><a href="#signup">Sign up</a></button>
+                <button id="lang-btn"><a href="#language"><i class="fa-solid fa-globe"></i></a></button>
+            </div>
         </div>
     </nav>
 </body>
 
-<script src="js/myscripts.js"></script>
 </html>

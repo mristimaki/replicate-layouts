@@ -1,57 +1,54 @@
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 0;
-    padding: 0;
+
 }
 
-nav {
-    position: sticky;
-    top: 0;
+#nav-wrapper {
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
+}
+
+#nav-input {
+    font-size: 15px;
+    color: grey;
+    padding: 0.75rem;
+    border: 0;
+    border-color: transparent;
+}
+
+/* försök ordna så att border försvinner i fokus, även text */
+input :focus {
+    border: 0;
+    outline: none!important;
+}
+
+#search-icon {
+    color: grey;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    padding: 0.75rem;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
     align-items: center;
 }
 
 .nav-links a {
     text-decoration: none;
     color: black;
-    padding: 1rem;
 }
 
-#nav-containere ul{
-    width: 100%;
-    height: 100%;
+.nav-btns a {
     display: flex;
-    list-style: none;
-    gap: 1rem;
-}
-
-.nav-links a:hover {
-    background-color: #f0f0f0;
-}
-
-/*
-
-#nav-logo {
-    max-width: 50px;
-}
-
-#nav-input {
-    font-size: 15px;
-    padding: 0.75rem;
-    border: 1px solid lightgray;
-    border-radius: 7px;
-}
-
-.btn-wrapper {
-    display: flex;
-    gap: 0.5rem;
-}
-
-.nav-btns {
+    text-decoration: none;
     padding: 0.5rem;
     font-weight: bold;
     font-size: 16px;
+    border-radius: 7px;
 }
 
 #login-btn {
@@ -62,7 +59,7 @@ nav {
     cursor: pointer;
 }
 
-#signin-btn {
+#signup-btn {
     background-color: blueviolet;
     color: white;
     border: 1px solid blueviolet;
@@ -77,4 +74,3 @@ nav {
     border-radius: 7px;
     cursor: pointer;
 }
-*/
