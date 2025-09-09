@@ -29,10 +29,24 @@ button {
     padding: 0.6rem;
 }
 
-#nav-wrapper {
+#nav-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+#explore-dropdown {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    border-radius: 7px;
+    padding: 0.75rem;
+    outline: none;
+}
+
+#explore-dropdown:focus {
+    outline: none;
 }
 
 #nav-input {
@@ -53,7 +67,7 @@ input :focus {
     color: grey;
     border: 1px solid lightgray;
     border-radius: 7px;
-    padding: 0.75rem;
+    padding: 0.1rem;
 }
 
 .nav-links {

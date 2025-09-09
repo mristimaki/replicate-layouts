@@ -9,15 +9,31 @@
     <title>Replicate Layouts</title>
 </head>
 <body>
+
+    <!-- dela upp i img, dropdown, input, lista, buttons. kanske göra 
+     grid template columns med auto på input ex: 50px 1fr auto auto 1fr -->
     <nav>
-        <div id="nav-wrapper">
+        <div id="nav-container">
             <div class="logo">
                 <img src="images/logo-udemy.svg" alt="Logo from Udemy" width="100px">
             </div>
 
+            <div>
+                <select name="Explore by goal" id="explore-dropdown">
+                    <option value="explore-title" disabled selected hidden>Explore</option>
+                    <option value="Option1">Option</option>
+                    <option value="Option2">Option</option>
+                    <option value="Option3">Option</option>
+                    <option value="Option4">Option</option>
+                    <option value="Option5">Option</option>
+                    <option value="Option6">Option</option>
+                    <option value="Option7">Option</option>
+                </select>
+            </div>
+
+
             <ul class="nav-links">
-                <li><a href="#explore">Explore</a></li>
-                <li><span id="search-icon"><i class="fa-solid fa-magnifying-glass"></i><input id="nav-input" type="text" value="Search for anything"></span></li>
+                <li><div id="search-icon"><i class="fa-solid fa-magnifying-glass"></i><input id="nav-input" type="text" placeholder="Search for anything"></div></li>
                 <li><a href="#planspricing">Plans & Pricing</a></li>
                 <li><a href="#morefromudemy">Udemy Business</a></li>
                 <li><a href="#cart"><i class="fa-solid fa-cart-shopping"></i></a></li>
